@@ -11,6 +11,16 @@ $ brew tap hamler-lang/hamler
 $ brew install hamler
 ```
 
+**ASDF (linux/macOS)**
+
+** Prerequisites: Erlang
+
+```shell
+$ asdf plugin add hamler
+$ asdf install hamler latest
+$ asdf global hamler latest
+```
+
 **Install from source code(macOS)**
 
 1. Install Erlang
